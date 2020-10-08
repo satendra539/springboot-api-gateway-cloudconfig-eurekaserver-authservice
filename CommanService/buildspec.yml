@@ -1,0 +1,22 @@
+version: 0.2
+
+
+phases:
+  install:
+    commands:
+      - cp ./settings.xml /root/.m2/settings.xml
+    runtime-versions:
+      java: corretto11
+  pre_build:
+    commands:
+      - echo generating CODEARTIFACT_TOKEN...
+      - pip3 install awscli --upgrade --user
+      - export CODEARTIFACT_TOKEN=`aws codeartifact get-authorization-token --domain kk --domain-owner 488405731914 --query authorizationToken --output text`
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Building application..
+      - mvn clean deploy
+  post_build:
+    commands:
+      - echo Build completed on `date`
