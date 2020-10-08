@@ -1,0 +1,716 @@
+08-10-2020 19:11:01.021 - -- [INFO ] SpringApplication - The following profiles are active: dev
+08-10-2020 19:11:04.291 - -- [WARN ] EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+08-10-2020 19:11:04.319 - -- [WARN ] EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+08-10-2020 19:11:04.643 - -- [INFO ] GenericScope - BeanFactory id=35de4508-aeb8-30d8-bae1-17b97f12a231
+08-10-2020 19:11:09.253 - -- [INFO ] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08-10-2020 19:11:09.285 - -- [INFO ] DirectJDKLog - Initializing ProtocolHandler ["http-nio-8080"]
+08-10-2020 19:11:09.288 - -- [INFO ] DirectJDKLog - Starting service [Tomcat]
+08-10-2020 19:11:09.290 - -- [INFO ] DirectJDKLog - Starting Servlet engine: [Apache Tomcat/9.0.34]
+08-10-2020 19:11:09.961 - -- [INFO ] DirectJDKLog - Initializing Spring embedded WebApplicationContext
+08-10-2020 19:11:09.961 - -- [INFO ] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8869 ms
+08-10-2020 19:11:10.287 - -- [WARN ] URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+08-10-2020 19:11:10.294 - -- [INFO ] URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+08-10-2020 19:11:10.339 - -- [INFO ] DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2b3ceb2b
+08-10-2020 19:11:13.163 - -- [WARN ] ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+08-10-2020 19:11:13.171 - -- [WARN ] URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+08-10-2020 19:11:13.173 - -- [INFO ] URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+08-10-2020 19:11:13.552 - -- [INFO ] ExecutorConfigurationSupport - Initializing ExecutorService 'applicationTaskExecutor'
+08-10-2020 19:11:14.092 - -- [INFO ] OptionalLiveReloadServer - LiveReload server is running on port 35729
+08-10-2020 19:11:14.254 - -- [WARN ] BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+08-10-2020 19:11:15.271 - -- [INFO ] ZuulFilterInitializer - Starting filter initializer
+08-10-2020 19:11:15.306 - -- [INFO ] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+08-10-2020 19:11:15.373 - -- [INFO ] InstanceInfoFactory - Setting initial instance status as: STARTING
+08-10-2020 19:11:15.729 - -- [INFO ] DiscoveryClient - Initializing Eureka in region us-east-1
+08-10-2020 19:11:15.879 - -- [INFO ] DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+08-10-2020 19:11:15.888 - -- [INFO ] DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+08-10-2020 19:11:16.296 - -- [INFO ] DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+08-10-2020 19:11:16.296 - -- [INFO ] DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+08-10-2020 19:11:16.444 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 19:11:16.971 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:11:16.973 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:11:16.976 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:11:16.978 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:11:16.980 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:11:16.982 - -- [INFO ] DiscoveryClient - Application version is -1: true
+08-10-2020 19:11:16.987 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:11:17.213 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:11:17.219 - -- [INFO ] DiscoveryClient - Not registering with Eureka server per configuration
+08-10-2020 19:11:17.361 - -- [INFO ] DiscoveryClient - Discovery Client initialized at timestamp 1602164477222 with initial instances count: 1
+08-10-2020 19:11:17.373 - -- [INFO ] EurekaServiceRegistry - Registering application UNKNOWN with eureka with status UP
+08-10-2020 19:11:17.435 - -- [INFO ] DirectJDKLog - Starting ProtocolHandler ["http-nio-8080"]
+08-10-2020 19:11:17.613 - -- [INFO ] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api-gateway'
+08-10-2020 19:11:17.620 - -- [INFO ] EurekaAutoServiceRegistration - Updating port to 8080
+08-10-2020 19:11:18.228 - -- [INFO ] StartupInfoLogger - Started TestApiGateway in 21.213 seconds (JVM running for 23.585)
+08-10-2020 19:16:16.999 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 19:21:17.013 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 19:26:23.208 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 19:31:23.561 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 19:33:45.781 - -- [INFO ] EurekaServiceRegistry - Unregistering application UNKNOWN with eureka with status DOWN
+08-10-2020 19:33:45.892 - -- [INFO ] ZuulFilterInitializer - Stopping filter initializer
+08-10-2020 19:33:45.895 - -- [INFO ] ExecutorConfigurationSupport - Shutting down ExecutorService 'applicationTaskExecutor'
+08-10-2020 19:33:46.052 - -- [INFO ] DiscoveryClient - Shutting down DiscoveryClient ...
+08-10-2020 19:33:46.077 - -- [INFO ] DiscoveryClient - Completed shut down of DiscoveryClient
+08-10-2020 19:34:41.450 - -- [INFO ] SpringApplication - The following profiles are active: dev
+08-10-2020 19:34:42.310 - -- [INFO ] GenericScope - BeanFactory id=35de4508-aeb8-30d8-bae1-17b97f12a231
+08-10-2020 19:34:42.519 - -- [INFO ] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08-10-2020 19:34:42.519 - -- [INFO ] DirectJDKLog - Starting service [Tomcat]
+08-10-2020 19:34:42.523 - -- [INFO ] DirectJDKLog - Starting Servlet engine: [Apache Tomcat/9.0.34]
+08-10-2020 19:34:43.473 - -- [INFO ] DirectJDKLog - Initializing Spring embedded WebApplicationContext
+08-10-2020 19:34:43.479 - -- [INFO ] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2029 ms
+08-10-2020 19:34:43.516 - -- [WARN ] URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+08-10-2020 19:34:43.516 - -- [INFO ] URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+08-10-2020 19:34:43.520 - -- [INFO ] DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@63fe79b8
+08-10-2020 19:34:45.547 - -- [WARN ] ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+08-10-2020 19:34:45.548 - -- [WARN ] URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+08-10-2020 19:34:45.548 - -- [INFO ] URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+08-10-2020 19:34:45.648 - -- [INFO ] ExecutorConfigurationSupport - Initializing ExecutorService 'applicationTaskExecutor'
+08-10-2020 19:34:45.756 - -- [INFO ] OptionalLiveReloadServer - LiveReload server is running on port 35729
+08-10-2020 19:34:45.796 - -- [WARN ] BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+08-10-2020 19:34:45.870 - -- [INFO ] ZuulFilterInitializer - Starting filter initializer
+08-10-2020 19:34:45.889 - -- [INFO ] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+08-10-2020 19:34:45.927 - -- [INFO ] InstanceInfoFactory - Setting initial instance status as: STARTING
+08-10-2020 19:34:45.927 - -- [INFO ] DiscoveryClient - Initializing Eureka in region us-east-1
+08-10-2020 19:34:45.935 - -- [INFO ] DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+08-10-2020 19:34:45.936 - -- [INFO ] DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+08-10-2020 19:34:45.936 - -- [INFO ] DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+08-10-2020 19:34:45.937 - -- [INFO ] DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+08-10-2020 19:34:46.020 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 19:34:46.026 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:34:46.026 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:34:46.028 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:34:46.028 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:34:46.029 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:34:46.030 - -- [INFO ] DiscoveryClient - Application version is -1: true
+08-10-2020 19:34:46.030 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:34:46.044 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:34:46.044 - -- [INFO ] DiscoveryClient - Not registering with Eureka server per configuration
+08-10-2020 19:34:46.044 - -- [INFO ] DiscoveryClient - Discovery Client initialized at timestamp 1602165886044 with initial instances count: 1
+08-10-2020 19:34:46.050 - -- [INFO ] EurekaServiceRegistry - Registering application UNKNOWN with eureka with status UP
+08-10-2020 19:34:46.079 - -- [INFO ] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api-gateway'
+08-10-2020 19:34:46.080 - -- [INFO ] EurekaAutoServiceRegistration - Updating port to 8080
+08-10-2020 19:34:47.036 - -- [INFO ] StartupInfoLogger - Started TestApiGateway in 7.5 seconds (JVM running for 1432.414)
+08-10-2020 19:34:47.041 - -- [INFO ] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+08-10-2020 19:34:58.523 - -- [INFO ] EurekaServiceRegistry - Unregistering application UNKNOWN with eureka with status DOWN
+08-10-2020 19:34:58.526 - -- [INFO ] ZuulFilterInitializer - Stopping filter initializer
+08-10-2020 19:34:58.535 - -- [INFO ] ExecutorConfigurationSupport - Shutting down ExecutorService 'applicationTaskExecutor'
+08-10-2020 19:34:58.535 - -- [INFO ] DiscoveryClient - Shutting down DiscoveryClient ...
+08-10-2020 19:34:58.561 - -- [INFO ] DiscoveryClient - Completed shut down of DiscoveryClient
+08-10-2020 19:35:01.421 - -- [INFO ] SpringApplication - The following profiles are active: dev
+08-10-2020 19:35:02.210 - -- [INFO ] GenericScope - BeanFactory id=35de4508-aeb8-30d8-bae1-17b97f12a231
+08-10-2020 19:35:02.383 - -- [INFO ] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08-10-2020 19:35:02.383 - -- [INFO ] DirectJDKLog - Starting service [Tomcat]
+08-10-2020 19:35:02.383 - -- [INFO ] DirectJDKLog - Starting Servlet engine: [Apache Tomcat/9.0.34]
+08-10-2020 19:35:02.484 - -- [INFO ] DirectJDKLog - Initializing Spring embedded WebApplicationContext
+08-10-2020 19:35:02.484 - -- [INFO ] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1058 ms
+08-10-2020 19:35:02.556 - -- [WARN ] URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+08-10-2020 19:35:02.557 - -- [INFO ] URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+08-10-2020 19:35:02.560 - -- [INFO ] DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@249bd1c2
+08-10-2020 19:35:04.817 - -- [WARN ] ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+08-10-2020 19:35:04.817 - -- [WARN ] URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+08-10-2020 19:35:04.817 - -- [INFO ] URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+08-10-2020 19:35:04.941 - -- [INFO ] ExecutorConfigurationSupport - Initializing ExecutorService 'applicationTaskExecutor'
+08-10-2020 19:35:05.119 - -- [INFO ] OptionalLiveReloadServer - LiveReload server is running on port 35729
+08-10-2020 19:35:05.138 - -- [WARN ] BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+08-10-2020 19:35:05.177 - -- [INFO ] ZuulFilterInitializer - Starting filter initializer
+08-10-2020 19:35:05.180 - -- [INFO ] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+08-10-2020 19:35:05.196 - -- [INFO ] InstanceInfoFactory - Setting initial instance status as: STARTING
+08-10-2020 19:35:05.199 - -- [INFO ] DiscoveryClient - Initializing Eureka in region us-east-1
+08-10-2020 19:35:05.200 - -- [INFO ] DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+08-10-2020 19:35:05.201 - -- [INFO ] DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+08-10-2020 19:35:05.201 - -- [INFO ] DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+08-10-2020 19:35:05.201 - -- [INFO ] DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+08-10-2020 19:35:05.230 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 19:35:05.237 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:35:05.237 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:35:05.237 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:35:05.238 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:35:05.238 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:35:05.238 - -- [INFO ] DiscoveryClient - Application version is -1: true
+08-10-2020 19:35:05.238 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:35:05.242 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:35:05.242 - -- [INFO ] DiscoveryClient - Not registering with Eureka server per configuration
+08-10-2020 19:35:05.242 - -- [INFO ] DiscoveryClient - Discovery Client initialized at timestamp 1602165905242 with initial instances count: 1
+08-10-2020 19:35:05.246 - -- [INFO ] EurekaServiceRegistry - Registering application UNKNOWN with eureka with status UP
+08-10-2020 19:35:05.263 - -- [INFO ] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api-gateway'
+08-10-2020 19:35:05.264 - -- [INFO ] EurekaAutoServiceRegistration - Updating port to 8080
+08-10-2020 19:35:06.256 - -- [INFO ] StartupInfoLogger - Started TestApiGateway in 6.935 seconds (JVM running for 1451.638)
+08-10-2020 19:35:06.262 - -- [INFO ] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+08-10-2020 19:35:27.209 - -- [INFO ] EurekaServiceRegistry - Unregistering application UNKNOWN with eureka with status DOWN
+08-10-2020 19:35:27.217 - -- [INFO ] ZuulFilterInitializer - Stopping filter initializer
+08-10-2020 19:35:27.221 - -- [INFO ] ExecutorConfigurationSupport - Shutting down ExecutorService 'applicationTaskExecutor'
+08-10-2020 19:35:27.227 - -- [INFO ] DiscoveryClient - Shutting down DiscoveryClient ...
+08-10-2020 19:35:27.258 - -- [INFO ] DiscoveryClient - Completed shut down of DiscoveryClient
+08-10-2020 19:35:30.332 - -- [INFO ] SpringApplication - The following profiles are active: dev
+08-10-2020 19:35:31.093 - -- [INFO ] GenericScope - BeanFactory id=35de4508-aeb8-30d8-bae1-17b97f12a231
+08-10-2020 19:35:31.306 - -- [INFO ] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08-10-2020 19:35:31.307 - -- [INFO ] DirectJDKLog - Starting service [Tomcat]
+08-10-2020 19:35:31.307 - -- [INFO ] DirectJDKLog - Starting Servlet engine: [Apache Tomcat/9.0.34]
+08-10-2020 19:35:31.453 - -- [INFO ] DirectJDKLog - Initializing Spring embedded WebApplicationContext
+08-10-2020 19:35:31.453 - -- [INFO ] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1115 ms
+08-10-2020 19:35:31.523 - -- [WARN ] URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+08-10-2020 19:35:31.528 - -- [INFO ] URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+08-10-2020 19:35:31.530 - -- [INFO ] DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1b7e7bd3
+08-10-2020 19:35:33.619 - -- [WARN ] ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+08-10-2020 19:35:33.623 - -- [WARN ] URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+08-10-2020 19:35:33.624 - -- [INFO ] URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+08-10-2020 19:35:33.724 - -- [INFO ] ExecutorConfigurationSupport - Initializing ExecutorService 'applicationTaskExecutor'
+08-10-2020 19:35:33.877 - -- [INFO ] OptionalLiveReloadServer - LiveReload server is running on port 35729
+08-10-2020 19:35:33.894 - -- [WARN ] BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+08-10-2020 19:35:33.932 - -- [INFO ] ZuulFilterInitializer - Starting filter initializer
+08-10-2020 19:35:33.943 - -- [INFO ] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+08-10-2020 19:35:33.953 - -- [INFO ] InstanceInfoFactory - Setting initial instance status as: STARTING
+08-10-2020 19:35:33.953 - -- [INFO ] DiscoveryClient - Initializing Eureka in region us-east-1
+08-10-2020 19:35:33.970 - -- [INFO ] DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+08-10-2020 19:35:33.970 - -- [INFO ] DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+08-10-2020 19:35:33.971 - -- [INFO ] DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+08-10-2020 19:35:33.971 - -- [INFO ] DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+08-10-2020 19:35:34.024 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 19:35:34.025 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:35:34.025 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:35:34.025 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:35:34.025 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:35:34.025 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:35:34.025 - -- [INFO ] DiscoveryClient - Application version is -1: true
+08-10-2020 19:35:34.025 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:35:34.030 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:35:34.030 - -- [INFO ] DiscoveryClient - Not registering with Eureka server per configuration
+08-10-2020 19:35:34.030 - -- [INFO ] DiscoveryClient - Discovery Client initialized at timestamp 1602165934030 with initial instances count: 1
+08-10-2020 19:35:34.030 - -- [INFO ] EurekaServiceRegistry - Registering application UNKNOWN with eureka with status UP
+08-10-2020 19:35:34.063 - -- [INFO ] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api-gateway'
+08-10-2020 19:35:34.064 - -- [INFO ] EurekaAutoServiceRegistration - Updating port to 8080
+08-10-2020 19:35:34.839 - -- [INFO ] StartupInfoLogger - Started TestApiGateway in 6.753 seconds (JVM running for 1480.218)
+08-10-2020 19:35:34.844 - -- [INFO ] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+08-10-2020 19:36:10.218 - -- [INFO ] EurekaServiceRegistry - Unregistering application UNKNOWN with eureka with status DOWN
+08-10-2020 19:36:10.226 - -- [INFO ] ZuulFilterInitializer - Stopping filter initializer
+08-10-2020 19:36:10.226 - -- [INFO ] ExecutorConfigurationSupport - Shutting down ExecutorService 'applicationTaskExecutor'
+08-10-2020 19:36:10.234 - -- [INFO ] DiscoveryClient - Shutting down DiscoveryClient ...
+08-10-2020 19:36:10.258 - -- [INFO ] DiscoveryClient - Completed shut down of DiscoveryClient
+08-10-2020 19:36:13.352 - -- [INFO ] SpringApplication - The following profiles are active: dev
+08-10-2020 19:36:14.136 - -- [INFO ] GenericScope - BeanFactory id=35de4508-aeb8-30d8-bae1-17b97f12a231
+08-10-2020 19:36:14.316 - -- [INFO ] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08-10-2020 19:36:14.325 - -- [INFO ] DirectJDKLog - Starting service [Tomcat]
+08-10-2020 19:36:14.325 - -- [INFO ] DirectJDKLog - Starting Servlet engine: [Apache Tomcat/9.0.34]
+08-10-2020 19:36:14.408 - -- [INFO ] DirectJDKLog - Initializing Spring embedded WebApplicationContext
+08-10-2020 19:36:14.408 - -- [INFO ] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1048 ms
+08-10-2020 19:36:14.475 - -- [WARN ] URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+08-10-2020 19:36:14.476 - -- [INFO ] URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+08-10-2020 19:36:14.477 - -- [INFO ] DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@42bc1d59
+08-10-2020 19:36:16.361 - -- [WARN ] ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+08-10-2020 19:36:16.363 - -- [WARN ] URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+08-10-2020 19:36:16.363 - -- [INFO ] URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+08-10-2020 19:36:16.568 - -- [INFO ] ExecutorConfigurationSupport - Initializing ExecutorService 'applicationTaskExecutor'
+08-10-2020 19:36:16.837 - -- [INFO ] OptionalLiveReloadServer - LiveReload server is running on port 35729
+08-10-2020 19:36:16.877 - -- [WARN ] BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+08-10-2020 19:36:16.947 - -- [INFO ] ZuulFilterInitializer - Starting filter initializer
+08-10-2020 19:36:16.950 - -- [INFO ] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+08-10-2020 19:36:16.977 - -- [INFO ] InstanceInfoFactory - Setting initial instance status as: STARTING
+08-10-2020 19:36:16.977 - -- [INFO ] DiscoveryClient - Initializing Eureka in region us-east-1
+08-10-2020 19:36:16.985 - -- [INFO ] DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+08-10-2020 19:36:16.985 - -- [INFO ] DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+08-10-2020 19:36:16.985 - -- [INFO ] DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+08-10-2020 19:36:16.988 - -- [INFO ] DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+08-10-2020 19:36:17.056 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 19:36:17.059 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:36:17.059 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:36:17.060 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:36:17.060 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:36:17.061 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:36:17.062 - -- [INFO ] DiscoveryClient - Application version is -1: true
+08-10-2020 19:36:17.062 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:36:17.069 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:36:17.070 - -- [INFO ] DiscoveryClient - Not registering with Eureka server per configuration
+08-10-2020 19:36:17.072 - -- [INFO ] DiscoveryClient - Discovery Client initialized at timestamp 1602165977072 with initial instances count: 1
+08-10-2020 19:36:17.078 - -- [INFO ] EurekaServiceRegistry - Registering application UNKNOWN with eureka with status UP
+08-10-2020 19:36:17.108 - -- [INFO ] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api-gateway'
+08-10-2020 19:36:17.110 - -- [INFO ] EurekaAutoServiceRegistration - Updating port to 8080
+08-10-2020 19:36:18.195 - -- [INFO ] StartupInfoLogger - Started TestApiGateway in 7.144 seconds (JVM running for 1523.574)
+08-10-2020 19:36:18.200 - -- [INFO ] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+08-10-2020 19:38:47.189 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:38:47.193 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:38:47.198 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:38:47.199 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:38:47.200 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:38:47.201 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:38:47.202 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:38:47.205 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:39:17.217 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:39:17.217 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:39:17.218 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:39:17.219 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:39:17.219 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:39:17.219 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:39:17.220 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:39:17.227 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:39:47.237 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:39:47.237 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:39:47.238 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:39:47.238 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:39:47.240 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:39:47.240 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:39:47.241 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:39:47.256 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:40:17.260 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:40:17.260 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:40:17.261 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:40:17.262 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:40:17.264 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:40:17.264 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:40:17.265 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:40:17.276 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:40:47.290 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:40:47.291 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:40:47.292 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:40:47.292 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:40:47.294 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:40:47.294 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:40:47.295 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:40:47.305 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:41:17.070 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 19:41:17.316 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:41:17.316 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:41:17.318 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:41:17.319 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:41:17.319 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:41:17.321 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:41:17.321 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:41:17.335 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:41:47.344 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:41:47.345 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:41:47.347 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:41:47.347 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:41:47.349 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:41:47.349 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:41:47.350 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:41:47.629 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:42:17.636 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:42:17.638 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:42:17.638 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:42:17.640 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:42:17.641 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:42:17.641 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:42:17.643 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:42:17.988 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:42:47.995 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:42:47.997 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:42:47.998 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:42:47.998 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:42:48.000 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:42:48.000 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:42:48.001 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:42:48.014 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:43:18.027 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:43:18.028 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:43:18.029 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:43:18.030 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:43:18.031 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:43:18.031 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:43:18.033 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:43:18.054 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:43:48.063 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:43:48.064 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:43:48.066 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:43:48.067 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:43:48.067 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:43:48.067 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:43:48.068 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:43:48.090 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:44:18.096 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:44:18.096 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:44:18.098 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:44:18.100 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:44:18.101 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:44:18.102 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:44:18.103 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:44:18.114 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:44:48.125 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:44:48.126 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:44:48.129 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:44:48.132 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:44:48.133 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:44:48.136 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:44:48.137 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:44:48.147 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:45:18.157 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:45:18.157 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:45:18.158 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:45:18.159 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:45:18.159 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:45:18.159 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:45:18.160 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:45:18.166 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:45:48.172 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:45:48.172 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:45:48.175 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:45:48.176 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:45:48.177 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:45:48.177 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:45:48.177 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:45:48.188 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:46:17.079 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 19:46:18.201 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:46:18.201 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:46:18.204 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:46:18.204 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:46:18.205 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:46:18.206 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:46:18.206 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:46:18.210 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:46:48.226 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:46:48.227 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:46:48.229 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:46:48.230 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:46:48.231 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:46:48.232 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:46:48.232 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:46:48.245 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:47:18.260 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:47:18.262 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:47:18.266 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:47:18.269 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:47:18.270 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:47:18.273 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:47:18.275 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:47:18.298 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:47:48.301 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:47:48.301 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:47:48.303 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:47:48.304 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:47:48.305 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:47:48.305 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:47:48.307 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:47:48.316 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:48:18.324 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:48:18.324 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:48:18.326 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:48:18.327 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:48:18.328 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:48:18.329 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:48:18.330 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:48:18.339 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:48:48.345 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:48:48.347 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:48:48.348 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:48:48.349 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:48:48.349 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:48:48.350 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:48:48.350 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:48:48.364 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:49:18.377 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:49:18.377 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:49:18.381 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:49:18.381 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:49:18.382 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:49:18.383 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:49:18.386 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:49:18.393 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:49:48.404 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:49:48.406 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:49:48.407 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:49:48.408 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:49:48.408 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:49:48.410 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:49:48.411 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:49:48.422 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:50:18.433 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:50:18.433 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:50:18.435 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:50:18.436 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:50:18.437 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:50:18.438 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:50:18.438 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:50:18.445 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:50:48.447 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:50:48.447 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:50:48.449 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:50:48.450 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:50:48.451 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:50:48.451 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:50:48.453 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:50:48.471 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:51:17.082 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 19:51:18.483 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:51:18.484 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:51:18.485 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:51:18.486 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:51:18.486 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:51:18.487 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:51:18.488 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:51:18.500 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:51:48.513 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:51:48.514 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:51:48.514 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:51:48.516 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:51:48.516 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:51:48.518 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:51:48.519 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:51:48.536 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:52:18.548 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:52:18.548 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:52:18.548 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:52:18.548 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:52:18.548 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:52:18.553 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:52:18.554 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:52:18.557 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:52:48.572 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:52:48.573 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:52:48.574 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:52:48.574 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:52:48.574 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:52:48.577 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:52:48.578 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:52:48.597 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:53:18.616 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:53:18.617 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:53:18.619 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:53:18.620 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:53:18.621 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:53:18.622 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:53:18.623 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:53:18.634 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:53:48.640 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:53:48.640 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:53:48.640 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:53:48.643 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:53:48.643 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:53:48.645 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:53:48.646 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:53:48.655 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:54:18.662 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:54:18.663 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:54:18.663 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:54:18.665 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:54:18.665 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:54:18.666 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:54:18.667 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:54:18.677 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:54:48.683 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:54:48.683 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:54:48.685 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:54:48.685 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:54:48.685 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:54:48.686 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:54:48.686 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:54:48.698 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:55:11.836 - -- [INFO ] EurekaServiceRegistry - Unregistering application UNKNOWN with eureka with status DOWN
+08-10-2020 19:55:11.839 - -- [INFO ] ZuulFilterInitializer - Stopping filter initializer
+08-10-2020 19:55:11.841 - -- [INFO ] ExecutorConfigurationSupport - Shutting down ExecutorService 'applicationTaskExecutor'
+08-10-2020 19:55:11.843 - -- [INFO ] DiscoveryClient - Shutting down DiscoveryClient ...
+08-10-2020 19:55:11.853 - -- [INFO ] DiscoveryClient - Completed shut down of DiscoveryClient
+08-10-2020 19:55:49.801 - -- [INFO ] SpringApplication - The following profiles are active: dev
+08-10-2020 19:55:51.409 - -- [WARN ] EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+08-10-2020 19:55:51.431 - -- [WARN ] EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+08-10-2020 19:55:51.721 - -- [INFO ] GenericScope - BeanFactory id=538b3776-6828-315d-84eb-2ea6e90b1109
+08-10-2020 19:55:53.685 - -- [INFO ] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08-10-2020 19:55:53.698 - -- [INFO ] DirectJDKLog - Initializing ProtocolHandler ["http-nio-8080"]
+08-10-2020 19:55:53.704 - -- [INFO ] DirectJDKLog - Starting service [Tomcat]
+08-10-2020 19:55:53.704 - -- [INFO ] DirectJDKLog - Starting Servlet engine: [Apache Tomcat/9.0.34]
+08-10-2020 19:55:54.057 - -- [INFO ] DirectJDKLog - Initializing Spring embedded WebApplicationContext
+08-10-2020 19:55:54.057 - -- [INFO ] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4231 ms
+08-10-2020 19:55:54.237 - -- [WARN ] URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+08-10-2020 19:55:54.237 - -- [INFO ] URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+08-10-2020 19:55:54.258 - -- [INFO ] DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1e5f2bd4
+08-10-2020 19:55:56.344 - -- [WARN ] ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+08-10-2020 19:55:56.353 - -- [WARN ] URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+08-10-2020 19:55:56.353 - -- [INFO ] URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+08-10-2020 19:55:56.496 - -- [INFO ] ExecutorConfigurationSupport - Initializing ExecutorService 'applicationTaskExecutor'
+08-10-2020 19:55:56.712 - -- [INFO ] OptionalLiveReloadServer - LiveReload server is running on port 35729
+08-10-2020 19:55:56.745 - -- [WARN ] BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+08-10-2020 19:55:57.020 - -- [INFO ] ZuulFilterInitializer - Starting filter initializer
+08-10-2020 19:55:57.038 - -- [INFO ] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+08-10-2020 19:55:57.079 - -- [INFO ] InstanceInfoFactory - Setting initial instance status as: STARTING
+08-10-2020 19:55:57.186 - -- [INFO ] DiscoveryClient - Initializing Eureka in region us-east-1
+08-10-2020 19:55:57.269 - -- [INFO ] DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+08-10-2020 19:55:57.269 - -- [INFO ] DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+08-10-2020 19:55:57.479 - -- [INFO ] DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+08-10-2020 19:55:57.479 - -- [INFO ] DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+08-10-2020 19:55:57.731 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 19:55:58.195 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:55:58.195 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:55:58.195 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:55:58.201 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:55:58.202 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:55:58.202 - -- [INFO ] DiscoveryClient - Application version is -1: true
+08-10-2020 19:55:58.203 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:55:58.286 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:55:58.288 - -- [INFO ] DiscoveryClient - Not registering with Eureka server per configuration
+08-10-2020 19:55:58.295 - -- [INFO ] DiscoveryClient - Discovery Client initialized at timestamp 1602167158293 with initial instances count: 0
+08-10-2020 19:55:58.298 - -- [INFO ] EurekaServiceRegistry - Registering application UNKNOWN with eureka with status UP
+08-10-2020 19:55:58.314 - -- [INFO ] DirectJDKLog - Starting ProtocolHandler ["http-nio-8080"]
+08-10-2020 19:55:58.334 - -- [INFO ] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api-gateway'
+08-10-2020 19:55:58.334 - -- [INFO ] EurekaAutoServiceRegistration - Updating port to 8080
+08-10-2020 19:55:58.784 - -- [INFO ] StartupInfoLogger - Started ApiGateway in 12.284 seconds (JVM running for 13.49)
+08-10-2020 19:56:28.291 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:56:28.293 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:56:28.293 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:56:28.294 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:56:28.294 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:56:28.294 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:56:28.295 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:56:32.387 - -- [ERROR] RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka-server/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:196)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:167)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1074)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:988)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1510)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1477)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 29 common frames omitted
+08-10-2020 19:56:32.392 - -- [WARN ] RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+08-10-2020 19:56:35.188 - -- [INFO ] RetryableEurekaHttpClient - Request execution succeeded on retry #1
+08-10-2020 19:56:35.190 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:57:05.200 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:57:05.201 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:57:05.203 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:57:05.204 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:57:05.205 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:57:05.206 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:57:05.207 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:57:05.216 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:57:35.254 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:57:35.256 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:57:35.257 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:57:35.257 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:57:35.259 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:57:35.260 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:57:35.262 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:57:35.286 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:58:05.292 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:58:05.292 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:58:05.296 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:58:05.297 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:58:05.297 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:58:05.298 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:58:05.299 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:58:05.310 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:58:35.326 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:58:35.328 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:58:35.332 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:58:35.335 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:58:35.337 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:58:35.338 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:58:35.340 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:58:35.360 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:59:05.378 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:59:05.378 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:59:05.382 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:59:05.382 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:59:05.383 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:59:05.384 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:59:05.385 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:59:05.405 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 19:59:35.411 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 19:59:35.411 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 19:59:35.413 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 19:59:35.415 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 19:59:35.415 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 19:59:35.415 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 19:59:35.417 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 19:59:35.437 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 20:00:05.444 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 20:00:05.446 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 20:00:05.447 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 20:00:05.448 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 20:00:05.449 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 20:00:05.449 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 20:00:05.451 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 20:00:05.462 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 20:00:35.480 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 20:00:35.481 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 20:00:35.482 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 20:00:35.483 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 20:00:35.484 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 20:00:35.484 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 20:00:35.485 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 20:00:35.505 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 20:00:58.209 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 20:01:05.511 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 20:01:05.511 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 20:01:05.513 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 20:01:05.513 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 20:01:05.514 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 20:01:05.514 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 20:01:05.514 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 20:01:05.534 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 20:01:35.540 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 20:01:35.540 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 20:01:35.540 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 20:01:35.545 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 20:01:35.545 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 20:01:35.545 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 20:01:35.548 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 20:01:35.666 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 20:02:35.719 - -- [INFO ] DiscoveryClient - Disable delta property : false
+08-10-2020 20:02:35.721 - -- [INFO ] DiscoveryClient - Single vip registry refresh property : null
+08-10-2020 20:02:35.722 - -- [INFO ] DiscoveryClient - Force full registry fetch : false
+08-10-2020 20:02:35.723 - -- [INFO ] DiscoveryClient - Application is null : false
+08-10-2020 20:02:35.724 - -- [INFO ] DiscoveryClient - Registered Applications size is zero : true
+08-10-2020 20:02:35.725 - -- [INFO ] DiscoveryClient - Application version is -1: false
+08-10-2020 20:02:35.726 - -- [INFO ] DiscoveryClient - Getting all instance registry info from the eureka server
+08-10-2020 20:02:35.737 - -- [INFO ] DiscoveryClient - The response status is 200
+08-10-2020 20:05:58.213 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 20:10:58.222 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 20:15:58.234 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 20:20:58.242 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 20:25:58.251 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 20:30:58.260 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 20:35:58.270 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 20:40:58.277 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 20:45:58.281 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 20:50:58.291 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 20:55:58.294 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 21:00:58.297 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 21:05:58.305 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 21:10:58.314 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 21:15:58.318 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 21:20:58.328 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 21:25:58.332 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 21:30:58.338 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 21:35:58.341 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 21:40:58.347 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 21:45:58.358 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 21:50:58.381 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 21:55:58.388 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
+08-10-2020 22:00:58.394 - -- [INFO ] ConfigClusterResolver - Resolving eureka endpoints via configuration
